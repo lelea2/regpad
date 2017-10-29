@@ -46,6 +46,18 @@ export class App extends Component {
                 name: 'viewport',
                 content: 'width=device-width,initial-scale=0.8,maximum-scale=1,user-scalable=0',
               },
+              {
+                name: 'description',
+                content: 'Transform your legal and compliance function by synchronizing regulations with your business. Leverage artificial intelligence to conduct research and apply regulations.'
+              },
+              {
+                name: 'keywords',
+                content: 'Regulation, Discover, Search, enterprise, GRC, Federal Rules, CFR, USC'
+              },
+              {
+                name: 'fragment',
+                content: '!'
+              }
             ]}
           />
           <div className={styles.container}>
