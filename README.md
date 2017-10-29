@@ -13,3 +13,9 @@ Prototype implement with MERN stack
 5. npm run coverage - generates test coverage report
 6. npm run lint - runs linter to check for lint errors
 ```
+
+In order to view devtool in dev mode, use
+
+```
+{this.state.isMounted && !window.devToolsExtension && process.env.NODE_ENV === 'development' && <DevTool /> />}
+```
