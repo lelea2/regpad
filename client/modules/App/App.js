@@ -57,7 +57,7 @@ export class App extends Component {
               {
                 name: 'fragment',
                 content: '!'
-              }
+              },
             ]}
           />
           <div className={styles.container}>
