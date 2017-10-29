@@ -59,12 +59,11 @@ app.use('/api', posts);
 
 // Render Initial HTML
 const renderFullPage = (html, initialState) => {
-  const head = Helmet.rewind();
+  const head = Helmet.rewind(); // render page
 
   // Import Manifests
   const assetsManifest = process.env.webpackAssets && JSON.parse(process.env.webpackAssets);
   const chunkManifest = process.env.webpackChunkAssets && JSON.parse(process.env.webpackChunkAssets);
-
   return `
     <!doctype html>
     <html>
